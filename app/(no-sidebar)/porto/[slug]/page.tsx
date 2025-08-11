@@ -2,7 +2,6 @@ import { portoRows } from "@/app/data/porto";
 import ImageDetailPorto from "@/components/ImageDetailPorto";
 import NotFoundPorto from "@/components/NotFoundPorto";
 import { Globe, Link as LinkIcon } from "lucide-react";
-import Image from "next/image";
 import Link from "next/link";
 
 interface PageProps {

@@ -13,7 +13,7 @@ export async function POST(request: Request) {
 
     const { name, email, message } = parsed.data;
 
-    const result = await transport.sendMail({
+    await transport.sendMail({
       ...mailOptions,
       subject: "Porto App",
       text: "message",
@@ -29,6 +29,7 @@ export async function POST(request: Request) {
       { status: 200 }
     );
   } catch (error) {
+    console.log(error);
     return Response.json(
       { error: "Unable to send email this time" },
       { status: 500 }

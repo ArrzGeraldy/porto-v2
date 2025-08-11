@@ -8,7 +8,6 @@ import {
   DialogDescription,
   DialogHeader,
   DialogTitle,
-  DialogTrigger,
 } from "@/components/ui/dialog";
 
 const certificationImgs = [
@@ -18,7 +17,7 @@ const certificationImgs = [
   "/certification/python-data-visual.png",
 ];
 
-export default function page() {
+export default function Page() {
   const [targetImage, setTargetImage] = useState("");
   const [open, setOpen] = useState(false);
   const handleOpen = (img: string) => {
