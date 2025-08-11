@@ -32,7 +32,7 @@ export const portoRows = [
   {
     name: "Video Chat App",
     slug: "video-chat",
-    img_url: "/img/video_call.jpg",
+    img_url: "/img/video-call/video_call.jpg",
     galery: [
       "/img/video-call/video_call.jpg",
       "/img/video-call/chat_lobby.png",
