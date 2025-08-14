@@ -37,7 +37,7 @@ const SideBar = () => {
           rel="noopener noreferrer"
           download
           className="px-4 py-2 mt-4 bg-primary rounded-md w-fit self-center text-sm hover:bg-primary/80 transition-all flex items-center gap-2 font-medium"
-          href={"/gerry-resume.pdf"}
+          href={"/gerry_cv.pdf"}
         >
           <Download className="size-5" />
           Download CV
